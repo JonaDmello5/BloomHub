@@ -1,16 +1,28 @@
+import Link from 'next/link';
 import NewsletterForm from './NewsletterForm';
 
 export default function Footer() {
   return (
     <footer className="border-t bg-accent/20">
-      <div className="container mx-auto grid grid-cols-1 gap-8 px-4 py-12 md:grid-cols-2 lg:grid-cols-3">
-        <div>
+      <div className="container mx-auto grid grid-cols-1 gap-12 px-4 py-12 md:grid-cols-3 lg:grid-cols-4">
+        <div className="lg:col-span-1">
           <h3 className="font-headline text-lg font-semibold">BloomHub</h3>
           <p className="mt-2 text-muted-foreground">
             Your online handbook for all things flower gardening.
           </p>
         </div>
-        <div className="lg:col-span-2 lg:justify-self-end">
+        
+        <div className="md:col-span-2 lg:col-span-1">
+            <h3 className="font-headline text-lg font-semibold">Quick Links</h3>
+            <nav className="mt-2 flex flex-col space-y-2">
+                <Link href="/about" className="text-muted-foreground hover:text-primary">About Us</Link>
+                <Link href="/contact" className="text-muted-foreground hover:text-primary">Contact</Link>
+                <Link href="/privacy" className="text-muted-foreground hover:text-primary">Privacy Policy</Link>
+                <Link href="/ai-assistant" className="text-muted-foreground hover:text-primary">AI Assistant</Link>
+            </nav>
+        </div>
+
+        <div className="lg:col-span-2">
           <h3 className="font-headline text-lg font-semibold">
             Subscribe to our Newsletter
           </h3>
