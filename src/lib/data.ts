@@ -1,8 +1,9 @@
+
 import { RoseIcon } from '@/components/icons/RoseIcon';
 import { OrchidIcon } from '@/components/icons/OrchidIcon';
 import { SucculentIcon } from '@/components/icons/SucculentIcon';
 import { GardeningToolsIcon } from '@/components/icons/GardeningToolsIcon';
-import { Sun, Leaf, Snowflake, Flower } from 'lucide-react';
+import { Sun, Leaf, Snowflake, Flower, Wind, VenetianMask } from 'lucide-react';
 
 export type Article = {
   slug: string;
@@ -107,6 +108,40 @@ const articles: Article[] = [
     tags: ['tulips', 'bulbs', 'spring flowers'],
     featured: false,
   },
+  {
+    slug: 'lavender',
+    title: 'Growing Lavender for Beauty and Fragrance',
+    description: 'Learn how to cultivate lavender for its beautiful purple spikes and calming scent.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Flower Types',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">The Allure of Lavender</h2>
+      <p class="mb-4">Lavender is a versatile herb, beloved for its fragrant flowers and silvery foliage. It's drought-tolerant and relatively easy to grow.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Sun and Soil</h3>
+      <p class="mb-4">Lavender demands full sun (at least 6-8 hours a day) and well-drained, slightly alkaline soil. It dislikes "wet feet," so good drainage is critical.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Pruning for Longevity</h3>
+      <p class="mb-4">Prune lavender every year after it flowers to promote bushy growth and prevent it from becoming woody. Cut back about one-third of the plant.</p>
+    `,
+    tags: ['lavender', 'herbs', 'fragrant-flowers', 'drought-tolerant'],
+    featured: true,
+  },
+  {
+    slug: 'peonies',
+    title: 'Peonies: The Queens of the Spring Garden',
+    description: 'Grow breathtaking peonies with huge, fragrant blooms that return year after year.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Flower Types',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Planting Peonies for a Lifetime of Beauty</h2>
+      <p class="mb-4">Peonies are long-lived perennials that can grace your garden for decades with minimal care. Their lush, romantic blooms are a springtime highlight.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Planting Depth is Crucial</h3>
+      <p class="mb-4">The most common reason peonies fail to bloom is because they are planted too deep. The "eyes" (or growth buds) on the root should be no more than 1.5 to 2 inches below the soil surface.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Support is Helpful</h3>
+      <p class="mb-4">The large, heavy blooms can cause the stems to flop over, especially after rain. Use a peony ring or other support to keep the flowers upright.</p>
+    `,
+    tags: ['peonies', 'perennials', 'spring-flowers', 'fragrant-flowers'],
+    featured: false,
+  },
   // Gardening Tips
   {
     slug: 'soil-preparation',
@@ -128,7 +163,7 @@ const articles: Article[] = [
     tags: ['soil', 'compost', 'gardening basics'],
     featured: true,
   },
-    {
+  {
     slug: 'getting-started',
     title: 'Getting Started with Flower Gardening',
     description: 'A perfect guide for absolute beginners to start their flower gardening journey.',
@@ -178,6 +213,40 @@ const articles: Article[] = [
       <p class="mb-4">Watering early in the day minimizes evaporation and allows leaves to dry, which helps prevent fungal diseases.</p>
     `,
     tags: ['watering', 'plant care', 'gardening basics'],
+    featured: false,
+  },
+  {
+    slug: 'container-gardening',
+    title: 'Flower Power in Pots: A Guide to Container Gardening',
+    description: 'No garden space? No problem! Learn to create stunning flower displays in containers.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Gardening Tips',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Big Blooms in Small Spaces</h2>
+      <p class="mb-4">Container gardening lets you grow beautiful flowers on balconies, patios, or any small space. The key is choosing the right pot and soil.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Pot Selection</h3>
+      <p class="mb-4">Ensure your pot has drainage holes. The size depends on the plant, but bigger pots dry out slower than smaller ones.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Use Potting Mix, Not Garden Soil</h3>
+      <p class="mb-4">Potting mixes are specially formulated to be lightweight and provide good drainage and aeration for container plants. Garden soil becomes too compacted in pots.</p>
+    `,
+    tags: ['container-gardening', 'small-space-gardening', 'pots'],
+    featured: true,
+  },
+  {
+    slug: 'deadheading',
+    title: 'Deadheading for Continuous Blooms',
+    description: 'Learn the simple technique of deadheading to keep your flowers blooming all season long.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Gardening Tips',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">More Flowers, Less Effort</h2>
+      <p class="mb-4">Deadheading is the process of removing spent flowers from a plant. This not only tidies up the plant but also encourages it to produce more blooms.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Why Deadhead?</h3>
+      <p class="mb-4">When a flower fades, the plant's energy goes into producing seeds. By removing the old flower, you redirect that energy into creating new flowers.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. How to Deadhead</h3>
+      <p class="mb-4">For most plants, you can simply pinch or snip off the faded flower stem just above the next set of healthy leaves. For flowers on single stems, cut the stem back to the base of the plant.</p>
+    `,
+    tags: ['deadheading', 'pruning', 'more-blooms'],
     featured: false,
   },
   // Seasonal Guides
@@ -234,6 +303,40 @@ const articles: Article[] = [
     tags: ['fall', 'seasonal care', 'winter prep'],
     featured: false,
   },
+  {
+    slug: 'winter',
+    title: 'Caring For Your Garden in Winter',
+    description: 'Protect your plants and prepare for next spring during the coldest months.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Seasonal Guides',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Winter Garden Care</h2>
+      <p class="mb-4">Even in winter, there are things to do to care for your garden and get a head start on spring.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Protect Plants from Frost</h3>
+      <p class="mb-4">Use frost cloths or blankets to protect tender plants during cold snaps. Applying a thick layer of mulch can also insulate roots.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Plan for Next Year</h3>
+      <p class="mb-4">Winter is the perfect time to browse seed catalogs and plan your garden layout for the upcoming season.</p>
+    `,
+    tags: ['winter', 'seasonal-care', 'protection', 'planning'],
+    featured: true,
+  },
+  {
+    slug: 'late-summer',
+    title: 'Late Summer Garden Tasks',
+    description: 'Keep your garden looking fresh and extend the blooming season into autumn.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Seasonal Guides',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">The Transition to Autumn</h2>
+      <p class="mb-4">Late summer is a bridge between the peak of summer and the beginning of fall. A little care now can keep your garden vibrant.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Refresh and Tidy Up</h3>
+      <p class="mb-4">Deadhead annuals and perennials to encourage a final flush of blooms. Trim back any leggy or overgrown plants.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Plant for Fall Color</h3>
+      <p class="mb-4">Now is a great time to plant fall-blooming flowers like chrysanthemums and asters for a colorful autumn display.</p>
+    `,
+    tags: ['late-summer', 'autumn-prep', 'seasonal-care'],
+    featured: false,
+  },
 ];
 
 export const getArticles = () => articles;
@@ -265,3 +368,5 @@ export const getSeasonalGuides = () => [
   { slug: 'fall', name: 'Fall', icon: Leaf },
   { slug: 'winter', name: 'Winter', icon: Snowflake },
 ]
+
+    
