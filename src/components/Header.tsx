@@ -8,9 +8,9 @@ import {
 } from '@/components/ui/sheet';
 
 const navLinks = [
-  { href: '/flower-types/roses', label: 'Flower Types' },
-  { href: '/gardening-tips/soil-preparation', label: 'Gardening Tips' },
-  { href: '/seasonal-guides/spring', label: 'Seasonal Guides' },
+  { href: '/flower-types', label: 'Flower Types' },
+  { href: '/gardening-tips', label: 'Gardening Tips' },
+  { href: '/seasonal-guides', label: 'Seasonal Guides' },
   { href: '/ai-assistant', label: 'AI Assistant' },
 ];
 

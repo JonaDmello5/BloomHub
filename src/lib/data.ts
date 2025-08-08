@@ -142,6 +142,40 @@ const articles: Article[] = [
     tags: ['peonies', 'perennials', 'spring-flowers', 'fragrant-flowers'],
     featured: false,
   },
+  {
+    slug: 'sunflowers',
+    title: 'Growing Cheerful Sunflowers',
+    description: 'Brighten your garden with the sunny faces of sunflowers. Easy to grow and great for all ages.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Flower Types',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">A Touch of Sunshine</h2>
+      <p class="mb-4">Sunflowers are the epitome of summer joy. They are incredibly easy to grow from seed and come in a variety of sizes and colors.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Planting Seeds</h3>
+      <p class="mb-4">Plant seeds directly in the garden after the last frost. Choose a spot that gets 6-8 hours of direct sunlight. Plant them about 1 inch deep and 6 inches apart.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Support for Tall Varieties</h3>
+      <p class="mb-4">Some sunflower varieties can grow over 10 feet tall! They may need staking to protect them from strong winds.</p>
+    `,
+    tags: ['sunflowers', 'easy-to-grow', 'summer-flowers', 'seeds'],
+    featured: false,
+  },
+  {
+    slug: 'dahlias',
+    title: 'Dahlias: Dazzling Stars of the Late Summer Garden',
+    description: 'Learn to grow dahlias for an explosion of color and form in your garden from mid-summer until frost.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Flower Types',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">The Diversity of Dahlias</h2>
+      <p class="mb-4">Dahlias offer an incredible range of colors, shapes, and sizes. From small, single-petal flowers to giant "dinner-plate" blooms, there's a dahlia for every garden.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Planting Tubers</h3>
+      <p class="mb-4">Plant dahlia tubers in the spring after the danger of frost has passed. Plant them in a sunny location in well-drained soil, about 4-6 inches deep.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Digging and Storing</h3>
+      <p class="mb-4">In colder climates, dahlia tubers need to be dug up after the first frost and stored in a cool, dry place over winter to be replanted the following spring.</p>
+    `,
+    tags: ['dahlias', 'tubers', 'summer-flowers', 'cut-flowers'],
+    featured: false,
+  },
   // Gardening Tips
   {
     slug: 'soil-preparation',
@@ -249,6 +283,40 @@ const articles: Article[] = [
     tags: ['deadheading', 'pruning', 'more-blooms'],
     featured: false,
   },
+  {
+    slug: 'companion-planting',
+    title: 'Companion Planting for a Healthier Flower Garden',
+    description: 'Discover how planting certain flowers together can deter pests, attract pollinators, and improve growth.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Gardening Tips',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Plants Helping Plants</h2>
+      <p class="mb-4">Companion planting is a strategic way to create a balanced and healthy garden ecosystem. Some plants can help others thrive by repelling pests or enriching the soil.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Marigolds for Pest Control</h3>
+      <p class="mb-4">The scent of marigolds is known to repel many garden pests, including nematodes in the soil. Plant them around roses and vegetable gardens.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Nasturtiums as a Trap Crop</h3>
+      <p class="mb-4">Aphids love nasturtiums. Planting them near more valuable plants can lure aphids away, acting as a "trap crop". Plus, their flowers are edible!</p>
+    `,
+    tags: ['companion-planting', 'organic-gardening', 'pest-control', 'pollinators'],
+    featured: false,
+  },
+  {
+    slug: 'mulching',
+    title: 'The Benefits of Mulching Your Garden',
+    description: 'Learn why mulching is one of the best things you can do for your garden beds.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Gardening Tips',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Your Garden's Best Friend</h2>
+      <p class="mb-4">Mulch is a layer of material applied to the surface of soil. It offers numerous benefits, from conserving water to suppressing weeds.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Types of Mulch</h3>
+      <p class="mb-4">Organic mulches like shredded bark, wood chips, or straw break down over time, enriching the soil. Inorganic mulches like pebbles can also be used.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. How to Apply</h3>
+      <p class="mb-4">Apply a 2-3 inch layer of mulch around your plants, but be careful not to pile it directly against the stems, which can cause rot.</p>
+    `,
+    tags: ['mulching', 'soil-health', 'water-conservation', 'weed-control'],
+    featured: false,
+  },
   // Seasonal Guides
   {
     slug: 'spring',
@@ -337,6 +405,40 @@ const articles: Article[] = [
     tags: ['late-summer', 'autumn-prep', 'seasonal-care'],
     featured: false,
   },
+  {
+    slug: 'early-spring-flowers',
+    title: 'First Flowers of Spring',
+    description: 'Discover the earliest blooming flowers that signal the end of winter, such as crocuses and snowdrops.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Seasonal Guides',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Harbingers of Spring</h2>
+      <p class="mb-4">Long before the tulips and daffodils, a few brave flowers push through the cold ground to announce that spring is on its way.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Crocuses</h3>
+      <p class="mb-4">These small, jewel-like flowers often bloom right through the snow. They come in shades of purple, yellow, and white and are a vital early food source for bees.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Snowdrops (Galanthus)</h3>
+      <p class="mb-4">With their delicate, drooping white heads, snowdrops are a classic sign that winter's grip is weakening. They naturalize well, creating beautiful carpets of white over time.</p>
+    `,
+    tags: ['early-spring', 'bulbs', 'crocus', 'snowdrops'],
+    featured: false,
+  },
+  {
+    slug: 'attracting-winter-birds',
+    title: 'Gardening for Winter Birds',
+    description: 'Provide food and shelter for birds in your garden during the harsh winter months.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Seasonal Guides',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">A Winter Haven for Birds</h2>
+      <p class="mb-4">Your garden can be a crucial resource for birds in winter. By providing food, water, and shelter, you can help them survive the cold and bring life and color to your winter landscape.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Leave Seed Heads Standing</h3>
+      <p class="mb-4">Don't be too tidy in the fall. The seed heads of plants like coneflowers, black-eyed susans, and ornamental grasses provide a natural food source for finches and other seed-eating birds.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Plant Berry-Producing Shrubs</h3>
+      <p class="mb-4">Shrubs like holly, winterberry, and crabapple provide nutritious berries that persist into winter, offering a feast for birds like cedar waxwings and robins.</p>
+    `,
+    tags: ['winter-interest', 'wildlife', 'birds', 'shrubs'],
+    featured: false,
+  },
 ];
 
 export const getArticles = () => articles;
@@ -352,9 +454,9 @@ export const getRelatedArticles = (currentArticle: Article) => {
 }
 
 export const getCategories = () => [
-  { name: 'Flower Types', description: 'Guides for specific flowers like roses and orchids.', href: '/flower-types/roses', icon: RoseIcon },
-  { name: 'Gardening Tips', description: 'Learn techniques for soil, pest control, and more.', href: '/gardening-tips/soil-preparation', icon: GardeningToolsIcon },
-  { name: 'Seasonal Guides', description: 'What to do in your garden each season.', href: '/seasonal-guides/spring', icon: Flower },
+  { name: 'Flower Types', description: 'Guides for specific flowers like roses and orchids.', href: '/flower-types', icon: RoseIcon },
+  { name: 'Gardening Tips', description: 'Learn techniques for soil, pest control, and more.', href: '/gardening-tips', icon: GardeningToolsIcon },
+  { name: 'Seasonal Guides', description: 'What to do in your garden each season.', href: '/seasonal-guides', icon: Flower },
   { name: 'AI Assistant', description: 'Get personalized gardening advice for your location.', href: '/ai-assistant', icon: Leaf },
 ];
 
