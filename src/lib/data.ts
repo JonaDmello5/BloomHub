@@ -140,7 +140,7 @@ const articles: Article[] = [
       <p class="mb-4">The large, heavy blooms can cause the stems to flop over, especially after rain. Use a peony ring or other support to keep the flowers upright.</p>
     `,
     tags: ['peonies', 'perennials', 'spring-flowers', 'fragrant-flowers'],
-    featured: false,
+    featured: true,
   },
   // Gardening Tips
   {
@@ -247,7 +247,7 @@ const articles: Article[] = [
       <p class="mb-4">For most plants, you can simply pinch or snip off the faded flower stem just above the next set of healthy leaves. For flowers on single stems, cut the stem back to the base of the plant.</p>
     `,
     tags: ['deadheading', 'pruning', 'more-blooms'],
-    featured: false,
+    featured: true,
   },
   // Seasonal Guides
   {
@@ -335,7 +335,7 @@ const articles: Article[] = [
       <p class="mb-4">Now is a great time to plant fall-blooming flowers like chrysanthemums and asters for a colorful autumn display.</p>
     `,
     tags: ['late-summer', 'autumn-prep', 'seasonal-care'],
-    featured: false,
+    featured: true,
   },
 ];
 
