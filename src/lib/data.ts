@@ -230,7 +230,7 @@ const articles: Article[] = [
       <p class="mb-4">Potting mixes are specially formulated to be lightweight and provide good drainage and aeration for container plants. Garden soil becomes too compacted in pots.</p>
     `,
     tags: ['container-gardening', 'small-space-gardening', 'pots'],
-    featured: true,
+    featured: false,
   },
   {
     slug: 'deadheading',
