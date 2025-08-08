@@ -73,6 +73,40 @@ const articles: Article[] = [
     ],
     featured: false,
   },
+  {
+    slug: 'succulents',
+    title: 'Caring for Succulents',
+    description: 'Discover how to care for these low-maintenance and stylish plants.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Flower Types',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">The Joy of Succulents</h2>
+      <p class="mb-4">Succulents are perfect for busy plant lovers. Their needs are simple: lots of light, and not too much water.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Sunlight is Key</h3>
+      <p class="mb-4">Most succulents need at least 6 hours of bright, indirect sunlight per day. A south-facing window is often perfect.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Watering: The "Soak and Dry" Method</h3>
+      <p class="mb-4">Water the soil thoroughly, then wait for the soil to dry out completely before watering again. This prevents root rot.</p>
+    `,
+    tags: ['succulents', 'houseplants', 'low-maintenance'],
+    featured: false,
+  },
+  {
+    slug: 'tulips',
+    title: 'Planting Tulips for Spring Color',
+    description: 'Learn when and how to plant tulip bulbs for a stunning spring display.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Flower Types',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">A Vibrant Spring with Tulips</h2>
+      <p class="mb-4">Tulips are a classic sign of spring. Planting bulbs in the fall is the key to a beautiful display.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. When to Plant</h3>
+      <p class="mb-4">Plant tulip bulbs in the autumn, before the ground freezes. This gives them the cold period they need to bloom.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. How to Plant</h3>
+      <p class="mb-4">Plant bulbs 6-8 inches deep, with the pointy end up. Choose a sunny spot with well-draining soil.</p>
+    `,
+    tags: ['tulips', 'bulbs', 'spring flowers'],
+    featured: false,
+  },
   // Gardening Tips
   {
     slug: 'soil-preparation',
@@ -112,6 +146,40 @@ const articles: Article[] = [
     tags: ['beginners', 'easy flowers', 'gardening basics'],
     featured: false,
   },
+  {
+    slug: 'pest-control',
+    title: 'Natural Pest Control for Your Garden',
+    description: 'Keep pests away from your precious plants without harsh chemicals.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Gardening Tips',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Eco-Friendly Pest Management</h2>
+      <p class="mb-4">A healthy garden ecosystem can naturally keep pests in check. Encourage beneficial insects and use natural remedies.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Attract Beneficial Insects</h3>
+      <p class="mb-4">Ladybugs, lacewings, and parasitic wasps are your allies. Plant flowers like dill, fennel, and yarrow to attract them.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Use Insecticidal Soap</h3>
+      <p class="mb-4">For soft-bodied insects like aphids, a simple solution of mild soap and water can be very effective and is safe for most plants.</p>
+    `,
+    tags: ['pests', 'organic gardening', 'beneficial insects'],
+    featured: false,
+  },
+  {
+    slug: 'watering-basics',
+    title: 'The Art of Watering Your Garden',
+    description: 'Learn how to water your plants effectively for optimal health and growth.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Gardening Tips',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Water Wisely</h2>
+      <p class="mb-4">Proper watering is crucial. Too much or too little can stress your plants.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Water Deeply, Less Frequently</h3>
+      <p class="mb-4">This encourages deep root growth, making plants more resilient. Water when the top inch of soil is dry.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Water in the Morning</h3>
+      <p class="mb-4">Watering early in the day minimizes evaporation and allows leaves to dry, which helps prevent fungal diseases.</p>
+    `,
+    tags: ['watering', 'plant care', 'gardening basics'],
+    featured: false,
+  },
   // Seasonal Guides
   {
     slug: 'spring',
@@ -131,6 +199,40 @@ const articles: Article[] = [
     `,
     tags: ['spring', 'seasonal care', 'preparation'],
     featured: true,
+  },
+  {
+    slug: 'summer',
+    title: 'Summer Garden Maintenance',
+    description: 'Keep your garden thriving through the heat of summer with these tips.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Seasonal Guides',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Beating the Summer Heat</h2>
+      <p class="mb-4">Summer can be stressful for plants. Consistent care is key.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Water Consistently</h3>
+      <p class="mb-4">The most important summer task! Water deeply during the coolest parts of the day.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Mulch, Mulch, Mulch</h3>
+      <p class="mb-4">A good layer of mulch helps retain soil moisture and keeps roots cool.</p>
+    `,
+    tags: ['summer', 'seasonal care', 'watering'],
+    featured: false,
+  },
+  {
+    slug: 'fall',
+    title: 'Prepping Your Garden for Winter',
+    description: 'A guide to fall cleanup and preparing your garden for the cold months ahead.',
+    image: 'https://placehold.co/600x400.png',
+    category: 'Seasonal Guides',
+    content: `
+      <h2 class="font-headline text-2xl font-bold mb-4">Winding Down in the Fall</h2>
+      <p class="mb-4">Fall is the time to clean up and prepare for winter's rest.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">1. Plant Spring Bulbs</h3>
+      <p class="mb-4">Fall is the time to plant tulips, daffodils, and other spring-blooming bulbs.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">2. Clean Up Beds</h3>
+      <p class="mb-4">Remove spent annuals and diseased plants to prevent problems next year.</p>
+    `,
+    tags: ['fall', 'seasonal care', 'winter prep'],
+    featured: false,
   },
 ];
 
