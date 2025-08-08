@@ -123,7 +123,7 @@ const articles: Article[] = [
       <p class="mb-4">Prune lavender every year after it flowers to promote bushy growth and prevent it from becoming woody. Cut back about one-third of the plant.</p>
     `,
     tags: ['lavender', 'herbs', 'fragrant-flowers', 'drought-tolerant'],
-    featured: true,
+    featured: false,
   },
   {
     slug: 'peonies',
@@ -140,7 +140,7 @@ const articles: Article[] = [
       <p class="mb-4">The large, heavy blooms can cause the stems to flop over, especially after rain. Use a peony ring or other support to keep the flowers upright.</p>
     `,
     tags: ['peonies', 'perennials', 'spring-flowers', 'fragrant-flowers'],
-    featured: true,
+    featured: false,
   },
   // Gardening Tips
   {
@@ -247,7 +247,7 @@ const articles: Article[] = [
       <p class="mb-4">For most plants, you can simply pinch or snip off the faded flower stem just above the next set of healthy leaves. For flowers on single stems, cut the stem back to the base of the plant.</p>
     `,
     tags: ['deadheading', 'pruning', 'more-blooms'],
-    featured: true,
+    featured: false,
   },
   // Seasonal Guides
   {
@@ -318,7 +318,7 @@ const articles: Article[] = [
       <p class="mb-4">Winter is the perfect time to browse seed catalogs and plan your garden layout for the upcoming season.</p>
     `,
     tags: ['winter', 'seasonal-care', 'protection', 'planning'],
-    featured: true,
+    featured: false,
   },
   {
     slug: 'late-summer',
@@ -335,7 +335,7 @@ const articles: Article[] = [
       <p class="mb-4">Now is a great time to plant fall-blooming flowers like chrysanthemums and asters for a colorful autumn display.</p>
     `,
     tags: ['late-summer', 'autumn-prep', 'seasonal-care'],
-    featured: true,
+    featured: false,
   },
 ];
 

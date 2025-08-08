@@ -1,10 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import ArticleCard from '@/components/ArticleCard';
-import { getFeaturedArticles, getCategories } from '@/lib/data';
+import {
+  getFeaturedArticles,
+  getCategories,
+  getArticlesByCategory,
+} from '@/lib/data';
 import { ArrowRight } from 'lucide-react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 
 export default function Home() {
   const featuredArticles = getFeaturedArticles();
@@ -26,7 +42,8 @@ export default function Home() {
             Welcome to BloomHub
           </h1>
           <p className="mt-4 max-w-2xl text-lg md:text-xl">
-            Your online handbook for growing and caring for a wide variety of beautiful flowers.
+            Your online handbook for growing and caring for a wide variety of
+            beautiful flowers.
           </p>
           <Button asChild className="mt-8" size="lg">
             <Link href="/gardening-tips/getting-started">
@@ -41,25 +58,46 @@ export default function Home() {
         <h2 className="mb-8 text-center font-headline text-3xl font-semibold md:text-4xl">
           Explore Our Guides
         </h2>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {categories.map((category) => (
-            <Link href={category.href} key={category.name}>
-              <Card className="group flex h-full transform flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <CardHeader>
-                  <div className="mb-4 rounded-full bg-accent p-4 text-primary transition-colors duration-300 group-hover:bg-primary group-hover:text-primary-foreground">
-                    <category.icon className="h-10 w-10" />
+        <Accordion
+          type="single"
+          collapsible
+          className="w-full"
+          defaultValue="item-0"
+        >
+          {categories.map((category, index) => {
+            const articles = getArticlesByCategory(category.name);
+            return (
+              <AccordionItem
+                value={`item-${index}`}
+                key={category.name}
+                className="mb-4 rounded-lg border bg-card px-4 shadow-sm"
+              >
+                <AccordionTrigger className="text-left hover:no-underline">
+                  <div className="flex items-center gap-4">
+                    <div className="rounded-full bg-accent p-3 text-primary">
+                      <category.icon className="h-8 w-8" />
+                    </div>
+                    <div>
+                      <h3 className="font-headline text-xl font-semibold">
+                        {category.name}
+                      </h3>
+                      <p className="text-sm text-muted-foreground">
+                        {category.description}
+                      </p>
+                    </div>
                   </div>
-                  <CardTitle className="font-headline text-xl">
-                    {category.name}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{category.description}</p>
-                </CardContent>
-              </Card>
-            </Link>
-          ))}
-        </div>
+                </AccordionTrigger>
+                <AccordionContent className="pt-4">
+                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {articles.map((article) => (
+                      <ArticleCard key={article.slug} article={article} />
+                    ))}
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            );
+          })}
+        </Accordion>
       </section>
 
       <section className="bg-background/80 py-12 md:py-20">
