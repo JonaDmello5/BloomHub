@@ -439,6 +439,186 @@ const articles: Article[] = [
     tags: ['winter-interest', 'wildlife', 'birds', 'shrubs'],
     featured: false,
   },
+  {
+    "slug": "hydrangeas",
+    "title": "Hydrangeas: Color-Changing Showstoppers",
+    "description": "Master pH tweaks, pruning windows, and watering routines for unforgettable hydrangea blooms.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Hydrangea Basics</h2>\n<p class='mb-4'>Hydrangeas are beloved for their generous clusters of flowers and their rare party trick: changing color with soil chemistry. To set yourself up for success, start with siting. Morning sun and afternoon shade keeps leaves turgid and prevents flower scorch, especially in hotter regions. In cooler zones, they can tolerate more sun, but steady moisture is non-negotiable. Hydrangeas prefer deep, even watering that soaks the root zone; a weekly schedule is a good baseline, adjusted for heat waves and rainfall. Mulch two to three inches with shredded bark to hold moisture and buffer temperature swings.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Soil pH and Bloom Color</h3>\n<p class='mb-4'>For bigleaf hydrangea (Hydrangea macrophylla), aluminum availability drives color. In acidic soils (pH ~5.0–5.5), aluminum is more available, yielding blue tones. In alkaline soils (pH ~6.5–7.0+), aluminum binds and flowers shift pink. To nudge blue, incorporate elemental sulfur over several months and water with aluminum sulfate according to label rates. For pink, top-dress with garden lime gradually, retesting every 6–8 weeks to avoid overshooting.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Pruning Without Losing Blooms</h3>\n<p class='mb-4'>Know your type. Bigleaf and oakleaf hydrangeas bloom on old wood; prune right after flowering by thinning a few oldest canes at the base and removing spent heads back to a strong pair of buds. Smooth (arborescens) and panicle (paniculata) hydrangeas bloom on new wood; prune in late winter to shape and invigorate, then feed in spring.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>3. Nutrition and Troubleshooting</h3>\n<p class='mb-4'>A balanced slow-release fertilizer in early spring, followed by a light top-up after first bloom, supports repeat flowering cultivars. Watch for wilt during hot afternoons; if plants recover by evening, the soil is fine—avoid overwatering. Yellow leaves with green veins can signal iron chlorosis from high pH; correct pH rather than piling on nutrients. With the right pH, pruning timing, and moisture, hydrangeas deliver season-spanning drama.</p>",
+    "tags": ["hydrangea", "color-change", "pruning", "pH"]
+    },
+    {
+    "slug": "lilies",
+    "title": "Elegant Lilies: From Bulb to Bloom",
+    "description": "Planting depth, staking, and deadhead strategy for Asiatic, Oriental, and trumpet lilies.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Why Gardeners Love Lilies</h2>\n<p class='mb-4'>True lilies (genus Lilium) bring vertical elegance and a spectrum of fragrance to borders and cutting gardens. Start with firm, unblemished bulbs and plant them promptly; lilies dislike drying out. Choose a spot with full sun to light shade and well-drained, fertile soil. Work in compost to improve structure, then plant bulbs 15–20 cm deep, pointy end up, spacing according to mature size. Deep planting stabilizes tall stems and encourages stem roots, improving drought tolerance and anchorage.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Watering and Feeding</h3>\n<p class='mb-4'>Lilies appreciate consistent moisture during active growth, but soggy soil invites rot. Water deeply and allow the top layer to dry between waterings. A balanced, slow-release fertilizer at planting and a light side-dress as buds form keeps stems sturdy and bloom count high. Mulch to keep the root zone cool, especially for Oriental and trumpet types that resent heat at their feet.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Support and Hygiene</h3>\n<p class='mb-4'>Stake tall cultivars early to prevent wind damage. Remove spent blooms (deadhead) promptly so the plant channels energy to bulbs, not seeds, but keep foliage until it yellows naturally—those leaves are solar panels for next year’s display. Watch for red lily beetles; hand-pick adults and inspect for clusters of orange eggs beneath leaves. Rotate planting areas every few years to reduce pest pressure.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>3. Extending the Show</h3>\n<p class='mb-4'>Combine Asiatic (early), Oriental (mid-to-late), and trumpet or OT hybrids for a long season. In containers, use free-draining mix and shelter pots from scorching afternoon sun. With good hygiene, thoughtful feeding, and smart siting, lilies deliver reliable, architectural beauty.</p>",
+    "tags": ["lilies", "bulbs", "fragrance"]
+    },
+    {
+    "slug": "irises",
+    "title": "Bearded & Beardless Irises Demystified",
+    "description": "Rhizome division, sunlight rules, and bloom-boosting soil prep for irises.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Iris Essentials</h2>\n<p class='mb-4'>Irises are study in form, from frilled standards to waterfall falls, and they reward gardeners who respect airflow and light. Bearded irises grow from shallow rhizomes that must bask at the soil surface; bury them, and rot follows. Choose a spot with at least six hours of sun and free-draining soil. Mix in grit or coarse sand if your bed holds water. Space rhizomes like spokes of a wheel, leaves pointing the same direction, to encourage outward expansion and easy division later.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Division and Renewal</h3>\n<p class='mb-4'>Divide clumps every three to four years, ideally four to six weeks after bloom. Lift the clump, trim foliage to 15 cm fans, and keep only firm, young rhizomes with several leaf fans and healthy roots. Replant at grade, water in, and avoid heavy mulch over rhizomes. Beardless types (Siberian, Japanese, Louisiana) prefer richer, moisture-retentive soils and can be mulched more generously.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Feeding and Disease</h3>\n<p class='mb-4'>A low-nitrogen fertilizer in early spring and just after bloom supports buds without lush, floppy foliage. Ensure strong airflow to reduce leaf spot. Remove and discard any soft, foul-smelling rhizomes—the hallmark of bacterial rot—and sanitize tools between cuts. With the right balance of sun, drainage, and periodic division, irises will parade color year after year.</p>",
+    "tags": ["iris", "division", "rhizomes"]
+    },
+    {
+    "slug": "chrysanthemums",
+    "title": "Chrysanthemums: Fall’s Fireworks",
+    "description": "Pinching schedules, feeding, and overwintering mums for dense, colorful domes.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Getting Bushy Blooms</h2>\n<p class='mb-4'>Chrysanthemums, or mums, are the backbone of late-season color. To get that tight dome of flowers, start with pinching. When plants reach 15 cm, pinch out the growing tips to two to three sets of leaves; repeat every three to four weeks until early July. This branching builds a dense framework that supports hundreds of buds. Provide full sun, consistent moisture, and fertile but well-drained soil. Mulch to keep roots cool and conserve water.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Feeding and Timing</h3>\n<p class='mb-4'>Feed lightly but regularly through mid-summer with a balanced fertilizer, then switch to a bloom-forward analysis as buds set. Avoid heavy nitrogen late; it encourages leaves over flowers. For florist mums, plan on staking or ring supports to prevent flopping in rain.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Overwintering</h3>\n<p class='mb-4'>Hardy garden mums benefit from fall planting in milder regions or spring planting in colder zones to establish roots. After frost blackens foliage, cut stems back to 10–15 cm and mulch with straw or shredded leaves. In very cold climates, pot up your favorite cultivars and overwinter them in a cool, bright space. With disciplined pinching and steady care, mums explode into a finale of saturated color just when gardens need it most.</p>",
+    "tags": ["chrysanthemum", "fall-flowers", "pinching"]
+    },
+    {
+    "slug": "zinnias",
+    "title": "Zinnias for Nonstop Color",
+    "description": "Direct-sowing, spacing, and mildew avoidance for cut-and-come-again zinnias.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Seed to Bouquet</h2>\n<p class='mb-4'>Few annuals earn their keep like zinnias. They germinate quickly, bloom hard, and refill the vase all summer. Direct-sow after frost in full sun, or start indoors for a head start. Thin aggressively—crowding invites powdery mildew. Wider spacing improves airflow and yields stronger stems for cutting. Water at the base to keep foliage dry, and mulch to reduce splash that spreads disease. Choose mildew-resistant series for humid regions.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Harvesting Right</h3>\n<p class='mb-4'>Use the wiggle test: if the stem near the bloom no longer flops side to side, it’s ready. Cut deep above a set of leaves to encourage branching. Strip lower foliage, place stems into clean water with a floral preservative, and condition in a cool room.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Succession Planting</h3>\n<p class='mb-4'>Sow a fresh row every two to three weeks for a rolling display. Deadhead relentlessly in landscape beds to keep flowers coming. With sun, space, and sanitation, zinnias deliver eye-popping color from early summer to frost.</p>",
+    "tags": ["zinnia", "cut-flowers", "annuals"]
+    },
+    {
+    "slug": "camellias",
+    "title": "Camellias: Winter Jewels",
+    "description": "Shade-loving shrubs with rose-like blooms—learn siting, soil, and sasanqua vs japonica care.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Choosing Varieties</h2>\n<p class='mb-4'>Camellias bridge the color gap from autumn through spring. Sasanqua camellias bloom in fall with smaller leaves and better sun tolerance; japonica types flower in late winter to spring and prefer bright shade. Both appreciate acidic, well-drained soil rich in organic matter. Plant slightly high to avoid waterlogged crowns, and mulch to keep roots cool. Water deeply during dry spells—evergreens transpire even in cool weather.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Pruning and Feeding</h3>\n<p class='mb-4'>Prune immediately after flowering to shape and remove deadwood. Avoid heavy cuts late in the season or you’ll sacrifice next year’s buds. Feed lightly with an acid-formulating fertilizer in spring and early summer. Yellowing between leaf veins may indicate high pH; correct soil chemistry before adding more nutrients.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Bud Drop and Frost</h3>\n<p class='mb-4'>Sudden cold snaps or drought stress can cause buds to drop. Maintain even moisture and protect buds from radiational frost with a breathable cover on extreme nights. With thoughtful siting and gentle care, camellias repay you with glossy foliage and elegant blooms when little else is flowering.</p>",
+    "tags": ["camellia", "evergreen", "shade"]
+    },
+    {
+    "slug": "gladiolus",
+    "title": "Gladiolus Spikes for Summer Drama",
+    "description": "Staggered planting, corm care, and staking for towering floral spears.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Succession Planting</h2>\n<p class='mb-4'>Gladiolus deliver vertical color and excel in cutting gardens. Plant corms after frost in full sun, four times the corm’s height deep, and space for airflow. To extend bloom season, plant small batches every two weeks for six to eight weeks. Water regularly during sprout and bud formation, but avoid soggy soil. A light, balanced fertilizer at planting and as spikes emerge supports sturdy stems.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Support and Cutting</h3>\n<p class='mb-4'>Tall spikes benefit from grid supports or discrete staking. Cut when the lowest one to two florets just open; the rest will unfurl in the vase. Leave several leaves behind to recharge the corm. In cold climates, lift corms after foliage yellows, cure in a dry, airy space, then store cool and dark.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Pests and Rot</h3>\n<p class='mb-4'>Thrips can scar blooms—use sticky cards for monitoring and rotate controls as needed. Ensure drainage and sanitation to prevent rot. With rhythmical planting and simple care, glads keep bouquets coming all summer.</p>",
+    "tags": ["gladiolus", "corms", "succession"]
+    },
+    {
+    "slug": "hibiscus",
+    "title": "Hardy vs Tropical Hibiscus",
+    "description": "Water, fertilization, and wintering differences for giant dinner-plate hibiscus vs tropical types.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Know Your Hibiscus</h2>\n<p class='mb-4'>Hibiscus spans hardy, herbaceous perennials with enormous dinner-plate blooms and tropical shrubs that thrive in heat. Hardy hibiscus (H. moscheutos hybrids) die back to the ground and return late in spring; be patient before declaring them dead. They love sun, rich soil, and steady water. Tropical hibiscus (H. rosa-sinensis) are evergreen shrubs in warm climates or container showpieces elsewhere; they demand warmth, high light, and regular feeding to bloom continuously.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Water and Food</h3>\n<p class='mb-4'>Hardy types appreciate moisture and benefit from thick mulch. Tropical forms in pots need free-draining mix and frequent watering in summer. Feed tropicals with a bloom-oriented fertilizer every two weeks during peak growth; hardy forms prefer slow-release in spring.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Winter Strategy</h3>\n<p class='mb-4'>Overwinter tropical hibiscus indoors in a bright, warm spot; prune lightly before bringing them in and watch for pests. Hardy hibiscus stems can be cut after frost; mulch crowns in colder zones. With clear expectations for each type, hibiscus reward you with outsized, tropical flair.</p>",
+    "tags": ["hibiscus", "tropical", "hardy"]
+    },
+    {
+    "slug": "gerberas",
+    "title": "Gerbera Daisies Indoors & Out",
+    "description": "Potting mixes, light levels, and bloom cycling for vibrant gerberas.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Flower Types",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Bright Faces, Simple Needs</h2>\n<p class='mb-4'>Gerbera daisies win hearts with saturated petals and crisp centers, but they can sulk if crowns stay wet. Plant in bright light—full sun outdoors, the sunniest window or supplemental LEDs indoors—and use a very airy potting mix with perlite or bark. Set crowns slightly above the soil line to discourage rot. Water deeply and let the top inch dry before repeating. Feed lightly but consistently during active growth.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Flower Cycling</h3>\n<p class='mb-4'>Gerberas often bloom in flushes. Deadhead at the base of the stem to keep new peduncles coming. If flowering slows, check for cramped roots and repot one size up in spring. Watch for spider mites in dry indoor air; increase humidity and rinse foliage periodically.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Outdoor Use</h3>\n<p class='mb-4'>In warm climates, treat as short-lived perennials; elsewhere, enjoy as high-impact annuals or container plants you can shift to shelter during bad weather. With good airflow and disciplined watering, gerberas deliver color blocks that read from across the garden.</p>",
+    "tags": ["gerbera", "pots", "houseplant"]
+    },
+    {
+    "slug": "drip-irrigation",
+    "title": "Set Up Drip Irrigation in a Weekend",
+    "description": "Design, parts list, emitters, and timers for water-wise beds and borders.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Gardening Tips",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Why Drip Wins</h2>\n<p class='mb-4'>Drip irrigation delivers water where it counts—the root zone—cutting evaporation, runoff, and disease. Start by sketching your beds and measuring runs. A typical small system uses a pressure regulator, filter, 1/2 inch mainline, and 1/4 inch feeder lines. Use barbed fittings for easy assembly, and secure tubing with stakes. Place emitters near plant root balls; 1 gph (gallon per hour) is standard for perennials, while larger shrubs may need 2 gph. Keep lines out of direct mower paths and shield from UV with mulch.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Zoning and Scheduling</h3>\n<p class='mb-4'>Group plants with similar water needs on the same zone. Install an automatic timer and start conservative: deep, infrequent sessions build resilient roots. Adjust runtime seasonally—longer in heat, shorter in cool spells. Check emitters monthly; a clogged dripper is invisible until a plant wilts.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Maintenance</h3>\n<p class='mb-4'>Flush lines at caps each season, replace brittle sections, and winterize where freezing occurs. Drip pays for itself quickly in healthier plants and lower water bills, while keeping foliage dry and reducing fungal issues.</p>",
+    "tags": ["irrigation", "water-saving", "hardware"]
+    },
+    {
+    "slug": "seed-starting-indoors",
+    "title": "Seed Starting Indoors, Zero Guesswork",
+    "description": "Lights, heat mats, sterile media, and up-potting for sturdy transplants.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Gardening Tips",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Start Strong</h2>\n<p class='mb-4'>Consistent conditions are the secret to robust seedlings. Use a sterile, fine-textured seed-starting mix in clean trays and label every cell. Heat mats set to the crop’s ideal germination temperature speed emergence; remove once most seeds sprout. Provide bright light—full-spectrum LEDs 5–10 cm above leaves for 14–16 hours daily—and brush your hand across tops or run a fan gently to encourage sturdy stems.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Water and Nutrition</h3>\n<p class='mb-4'>Bottom-water until the mix is evenly moist, then drain to avoid damping-off. Begin a dilute, balanced fertilizer once true leaves appear. Up-pot crowded seedlings before roots circle; handle by leaves, not stems. Harden off gradually over 7–10 days: shade first, then increasing sun and breeze, reducing water slightly to toughen tissues.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Timing</h3>\n<p class='mb-4'>Back-plan from your last frost date and each crop’s transplant age. Keep notes so next year’s timeline gets easier. With cleanliness, light, and patience, you’ll raise transplants that blast off when set outside.</p>",
+    "tags": ["seeds", "indoors", "lighting"]
+    },
+    {
+    "slug": "raised-beds",
+    "title": "Build Indestructible Raised Beds",
+    "description": "Materials, dimensions, and fill strategies (lasagna, hugelkultur, classic mix).",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Gardening Tips",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Design for Decades</h2>\n<p class='mb-4'>Raised beds concentrate fertility, improve drainage, and save your back. Aim for 1.2 m width so you can reach the center from either side; height of 30–45 cm suits most flowers, while deeper beds excel for tap-rooted perennials. Use rot-resistant materials like cedar, composite, or galvanized steel; avoid railroad ties. Anchor corners with brackets and exterior-grade screws to prevent bowing. Line bottoms with hardware cloth if burrowing pests are a problem, then add cardboard to suppress weeds.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Filling Strategies</h3>\n<p class='mb-4'>Classic blends use one-third compost, one-third peat or coir, and one-third mineral topsoil. For new builds on a budget, try a lasagna approach: coarse sticks and prunings at the base, then leaves, compost, and finished mix on top. Water thoroughly to settle, then top up after a week. Mulch after planting to reduce evaporation and compaction.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Rotation and Renewal</h3>\n<p class='mb-4'>Refresh annually with a layer of compost and periodic mineral amendments based on soil tests. Rotate plant families to reduce disease buildup. Sturdy beds plus rich soil equals plants that leap out of the ground.</p>",
+    "tags": ["raised-beds", "construction", "soil-mix"]
+    },
+    {
+    "slug": "vermicomposting",
+    "title": "Vermicomposting That Doesn’t Smell",
+    "description": "Bin setups, bedding, feed rates, and harvesting worm castings the clean way.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Gardening Tips",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Happy Worms, Rich Castings</h2>\n<p class='mb-4'>A well-run worm bin turns kitchen scraps into black gold with minimal fuss. Choose a ventilated, opaque bin with a tight lid and drainage. Add bedding—shredded cardboard, coco coir, and a handful of garden soil for grit—moistened to a wrung-out sponge. Introduce red wigglers (Eisenia fetida), not nightcrawlers. Feed small amounts of chopped veg, coffee grounds, and crushed eggshells weekly, burying food under bedding and rotating the feeding zone. Avoid meat, dairy, and oily foods that cause odor.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Balance and Troubleshooting</h3>\n<p class='mb-4'>If the bin smells, you’re overfeeding or too wet—add dry bedding and pause feeding. Fruit flies? Freeze scraps first or cover the surface with a sheet of damp newspaper. Maintain 15–27°C for optimal worm activity; extreme cold or heat slows them down.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Harvesting</h3>\n<p class='mb-4'>After a few months, migrate worms by feeding on one side only; harvest finished castings from the other. Use castings to top-dress containers and beds for a gentle nutrient boost and microbial life. Clean, odorless, and efficient—vermicomposting is indoor-friendly soil alchemy.</p>",
+    "tags": ["compost", "worms", "soil-health"]
+    },
+    {
+    "slug": "rainwater-harvesting",
+    "title": "Rain Barrels & Beyond",
+    "description": "Catchment sizing, first-flush diverters, and safe storage to irrigate for free.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Gardening Tips",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Design Your System</h2>\n<p class='mb-4'>Turning roof runoff into irrigation water makes ecological and economic sense. Start by estimating yield: roof area (m²) × rainfall (mm) ≈ liters captured, minus losses. Install gutters that slope correctly, add leaf screens, and route downspouts to barrels or tanks set on sturdy, level bases. Include a first-flush diverter to shunt the dirtiest initial water, and a screened inlet to block mosquitoes. Link multiple barrels with bulkhead fittings for capacity and add an overflow returning to a swale or infiltration area.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Distribution</h3>\n<p class='mb-4'>Gravity feed works if tanks are elevated; otherwise, use a small pump and filter to supply drip lines. Keep a spigot low on the barrel, and a cleanout at the bottom for sediment. Label non-potable and keep lids sealed for safety.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Maintenance</h3>\n<p class='mb-4'>Empty and rinse tanks annually, check seals after temperature swings, and winterize where freezing occurs. With a modest investment, rainwater becomes your garden’s most reliable summer resource.</p>",
+    "tags": ["water-conservation", "infrastructure", "DIY"]
+    },
+    {
+    "slug": "soil-ph-adjustment",
+    "title": "Dial In Soil pH the Right Way",
+    "description": "Testing, elemental sulfur, and lime—how much to add and when.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Gardening Tips",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Test, Then Treat</h2>\n<p class='mb-4'>Soil pH governs nutrient availability; chase numbers blindly and you’ll lock out essentials. Begin with a lab test or a calibrated meter to learn current pH and buffering capacity. If you need to raise pH, apply lime—dolomitic if magnesium is also low, calcitic otherwise—incorporated into the top 15–20 cm of soil. To lower pH, elemental sulfur is the slow, steady option; acid-forming fertilizers and peat can assist, but go gradually. Retest every 6–8 weeks before reapplying.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Material Rates and Timing</h3>\n<p class='mb-4'>Coarse rules of thumb are just that—soil texture and organic matter change the dose. Always follow local extension tables for your soil type. Apply in fall for changes by spring, or in split spring/fall doses for gentler swings. Water after application to start reactions and prevent dust.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Plant Signals</h3>\n<p class='mb-4'>Interveinal chlorosis may hint at high pH; purple leaves can indicate phosphorus lockout in low pH and cold. Correcting pH often solves mysterious deficiencies without extra fertilizer. Precision here pays off in stronger plants and better blooms.</p>",
+    "tags": ["pH", "soil", "amendments"]
+    },
+    {
+    "slug": "trellising-climbers",
+    "title": "Trellising Climbers Like a Pro",
+    "description": "Supports for sweet peas, clematis, and morning glories without tangles or breakage.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Gardening Tips",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Match Support to Growth Habit</h2>\n<p class='mb-4'>Climbers use different strategies to ascend. Tendril users (sweet peas) need thin mesh or strings to grip. Twiners (morning glory) spiral around cords or poles. Petiole-clingers (clematis) appreciate narrow supports they can clasp. Build the right ladder and growth is effortless. Install trellises before planting to avoid root disturbance, anchor them securely against wind, and consider the ultimate mass of foliage when engineering strength.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Training and Pruning</h3>\n<p class='mb-4'>Gently tie young stems with soft ties, fanning them to fill the support evenly. For clematis, know your pruning group: some bloom on old wood and need only light tidying, others on new wood and benefit from a hard cut in late winter. Remove spent blooms on annual climbers to extend the show.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Airflow and Health</h3>\n<p class='mb-4'>Good spacing and vertical training boost airflow, cutting fungal pressure. Water at the base and mulch to keep roots cool. With appropriate supports and steady guidance, climbers transform blank walls into living tapestries.</p>",
+    "tags": ["trellis", "vines", "support"]
+    },
+    {
+    "slug": "monsoon-gardening",
+    "title": "Monsoon Gardening: Thriving Through Heavy Rains",
+    "description": "Drainage, windbreaks, and disease prevention during sustained downpours.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Seasonal Guides",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Design for Water</h2>\n<p class='mb-4'>Monsoon months test garden resilience. Start with drainage: elevate beds, contour paths to shed water, and carve shallow swales along contours to slow and soak excess runoff. Integrate rain gardens planted with moisture-tolerant species in low spots. Install windbreaks—temporary mesh fencing or planted hedges—to reduce stem breakage during squalls. Keep mulch thick around root zones but pull it back from stems to avoid rot.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Disease Management</h3>\n<p class='mb-4'>Persistent leaf wetness accelerates fungal diseases. Increase plant spacing, prune for airflow, and water only at the base during dry windows. Remove infected leaves promptly and clean tools between cuts. Consider prophylactic applications of bio-fungicides where pressure is predictable.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Soil and Nutrition</h3>\n<p class='mb-4'>Heavy rains leach nutrients; side-dress with slow-release organic fertilizers to sustain growth. Add compost after storms to rebuild structure. Stake tall perennials early, and check ties weekly. With smart hydrology and vigilant hygiene, monsoon gardens can flourish rather than merely survive.</p>",
+    "tags": ["monsoon", "rain", "drainage"]
+    },
+    {
+    "slug": "heatwave-survival",
+    "title": "Heatwave Survival for Flower Gardens",
+    "description": "Shade cloths, deep-watering cadence, and anti-stress tactics during extreme heat.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Seasonal Guides",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Cool the Canopy</h2>\n<p class='mb-4'>Extreme heat stresses plants by spiking transpiration and cooking roots. Deploy 30–50% shade cloth over frames during the hottest part of the day, ensuring good airflow beneath. Water at dawn with long, deep sessions to charge the soil profile; avoid frequent, shallow sprinkles that steam foliage. Refresh mulch to 5–7 cm to insulate roots. In containers, group pots together to create a cooler microclimate and move them out of late-day sun.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Anti-Stress Care</h3>\n<p class='mb-4'>Pause heavy pruning and fertilizing during heat spikes; tender growth scorches easily. Foliar feeds are tempting, but droplets can amplify scorch—skip them. Prioritize rescue watering for new transplants and shallow-rooted annuals; deep-rooted perennials typically ride out short heatwaves with less help.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. After the Wave</h3>\n<p class='mb-4'>Once temperatures normalize, tidy crisped leaves, resume moderate feeding, and reassess plant placement for next year. Thoughtful temporary shade and disciplined irrigation keep gardens intact through punishing spells.</p>",
+    "tags": ["summer-heat", "shade", "watering"]
+    },
+    {
+    "slug": "early-autumn-perennials",
+    "title": "Planting Perennials in Early Autumn",
+    "description": "Why fall-rooting beats spring rush, plus move & divide tactics before frost.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Seasonal Guides",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Roots Before Shoots</h2>\n<p class='mb-4'>Early autumn offers warm soil, gentler sun, and more reliable rainfall—ideal for establishing perennials. Roots can grow until soil cools to ~4–7°C, giving plants a head start on spring. Choose healthy divisions or container stock, water deeply before planting, and set crowns at the correct depth. Top-dress with compost and mulch to buffer freeze–thaw cycles, but keep mulch off crowns to prevent rot.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Dividing and Moving</h3>\n<p class='mb-4'>Lift overcrowded clumps with a fork, split into vigorous pieces, and replant promptly. Trim tops to reduce transpiration and water deeply to settle soil. Label new placements; autumn gardens can look sparse once foliage dies back.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Aftercare</h3>\n<p class='mb-4'>Keep soil evenly moist for several weeks, then taper as rains arrive. In colder zones, apply an extra mulch blanket after the first hard frost. Come spring, your perennials will surge while spring-planted neighbors are still waking.</p>",
+    "tags": ["autumn", "perennials", "transplanting"]
+    },
+    {
+    "slug": "late-winter-pruning",
+    "title": "Late-Winter Pruning Checklist",
+    "description": "What to cut now and what to leave—timing that sets up huge spring performance.",
+    "image": "https://placehold.co/600x400.png",
+    "category": "Seasonal Guides",
+    "content": "<h2 class='font-headline text-2xl font-bold mb-4'>Cut Smart</h2>\n<p class='mb-4'>Late winter, when plants are still dormant, is prime time to shape many shrubs and invigorate new growth. Focus on species that bloom on new wood—panicle hydrangea, summer-blooming spireas, and many roses—while avoiding spring bloomers that set buds last year. Start with sanitation: remove dead, damaged, or diseased wood first, cutting to healthy tissue at a slight angle above outward-facing buds. Thin crowded interiors to improve airflow and light penetration.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>1. Tools and Technique</h3>\n<p class='mb-4'>Sharp bypass pruners, loppers, and a clean folding saw make safer cuts. Disinfect blades between plants to prevent disease spread. Step back often to assess structure; the goal is balanced, natural form, not a hedge-trimmer box.</p>\n<h3 class='font-headline text-xl font-bold mt-6 mb-2'>2. Finishing Touches</h3>\n<p class='mb-4'>After pruning, apply compost, refresh mulch, and water if soils are dry. As buds swell, a light spring feeding supports vigorous break. Resist the urge to prune if a warm spell is followed by severe cold—fresh cuts can be vulnerable. Smart timing now equals explosive growth and flowers later.</p>",
+    "tags": ["winter", "pruning", "timing"]
+    }
 ];
 
 export const getArticles = () => articles;
